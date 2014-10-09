@@ -34,7 +34,7 @@
 	
     <?php if(isset($_GET['pkeyword'])){ ?>
     <script type="text/javascript">
-      loadBDResults(1,10, '<?php echo $_GET['tipo']; ?>', '<?php echo utf8_decode($_GET['pkeyword']); ?>');
+      loadBDResults(1,10, '<?php echo $_GET['tipo']; ?>', '<?php echo $_GET['pkeyword']; ?>');
     </script>
     <?php } ?>
 </div>
